@@ -1,0 +1,14 @@
+[project]
+name = "opencode-squid"
+version = "0.1.0"
+description = "Python proxy for opencode on Windows"
+authors = [
+    { name = "Hugo Batista <code at hugobatista.com>" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "proxy.py>=2.4.0,<3.0.0",
+]
+
+[tool.uv]
+exclude-newer = "30 days"
